@@ -3,7 +3,7 @@ Custom base container for running [Nix](https://nixos.org/nix/) inside [Act](htt
 All you need is the `Dockerfile` from this repo, but there is also a demo `ci.yml` so you can verify thta it works. So build the image locally:
 
 ```
-docker build -t dsyer/ubuntu:act-latest
+docker build -t dsyer/ubuntu:act-latest .
 ```
 
 and then run it:
